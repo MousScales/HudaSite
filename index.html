@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Huda: The App for Muslims</title>
+  <link rel="icon" type="image/png" href="logo.png" />
+  <link rel="apple-touch-icon" href="logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+
+  <header class="top-nav">
+    <div class="nav-inner container">
+      <div class="brand">
+        <div class="brand-mark">
+          <img src="logo.png" alt="Huda logo" />
+        </div>
+        <span class="brand-name">Hudā</span>
+      </div>
+      <nav class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#about">About</a>
+        <a href="#ratings">Ratings</a>
+        <div class="nav-store-badges" aria-label="Download the app">
+          <a class="store-badge" href="https://apps.apple.com/us/app/huda-the-app-for-muslims/id6748400060" aria-label="Download on the App Store">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+          </a>
+        </div>
+      </nav>
+      <div class="nav-actions">
+        <a class="store-badge" href="https://apps.apple.com/us/app/huda-the-app-for-muslims/id6748400060" aria-label="Download on the App Store">
+          <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+        </a>
+        <button class="menu-toggle" aria-label="Toggle menu" id="menu-toggle">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <div class="rating-pill pill">
+          <div class="avatar-row pill-avatars stacked">
+            <img class="avatar avatar-img" src="avatar1.jpg" alt="Community member" />
+            <img class="avatar avatar-img" src="avatar2.jpg" alt="Community member" />
+            <img class="avatar avatar-img" src="avatar3.jpg" alt="Community member" />
+          </div>
+          <span class="pill-text">Loved by 5M users with <span class="star">⭐</span> 4.9 rating</span>
+        </div>
+        <h1>Meet Hudā</h1>
+        <h2 class="hero-subhead">The App for Muslims</h2>
+        <p class="lead">
+          Hudā is the last app Muslims will ever need to download—bringing everything for faith, practice, and daily life into one place. From prayer and learning to guidance and community, Huda simplifies your spiritual journey. One app, one purpose: helping you stay connected to Allah every day.        </p>
+        <div class="store-badges-row">
+          <a class="store-badge" href="https://apps.apple.com/us/app/huda-the-app-for-muslims/id6748400060" aria-label="Download on the App Store">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="phone-frame hero-phone left">
+          <img src="gif.gif" alt="Huda app preview" loading="lazy" />
+        </div>
+        <div class="phone-frame hero-phone right">
+          <img src="Images/DashBoard.png" alt="Huda dashboard preview" loading="lazy" />
+        </div>
+      </div>
+      <div class="hero-mobile-cta">
+        <a class="store-badge" href="https://apps.apple.com/us/app/huda-the-app-for-muslims/id6748400060" aria-label="Download on the App Store">
+          <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+        </a>
+      </div>
+
+      <div class="hero-discover">
+        <a class="discover-link" href="#features">
+          Discover features
+          <span aria-hidden="true" class="discover-arrow">↓</span>
+        </a>
+      </div>
+    </section>
+
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <section class="include-section container" id="features">
+      <div class="section-header">
+        <h2>Explore the Hudā experience.</h2>
+        <p class="muted">Tap any card to see a clean, live preview of each Hudā feature.</p>
+      </div>
+      <div class="include-layout">
+        <div class="include-visual">
+          <div class="include-preview">
+            <img id="include-preview-img" src="Images/DeenTracker.png" alt="Deen Tracker preview" loading="lazy" />
+          </div>
+          <div class="include-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+        <div class="include-cards">
+          <button class="include-card active" data-img="Images/DeenTracker.png" aria-label="Deen Tracker">
+            <h3>Deen Tracker</h3>
+            <p>Stay on top of prayers, fasting, and zakat with an integrated calendar and reminders.</p>
+          </button>
+          <button class="include-card" data-img="Images/IslamicLessons.png" aria-label="Islamic Lessons">
+            <h3>Islamic Lessons</h3>
+            <p>Structured lessons for new and returning Muslims—filters for theology, Quran, seerah, and worship.</p>
+          </button>
+          <button class="include-card" data-img="Images/IslamicLibrary.png" aria-label="Islamic Library">
+            <h3>Islamic Library</h3>
+            <p>Access Quran, dua, dhikr, and hadith in one serene library view.</p>
+          </button>
+          <button class="include-card" data-img="Images/DailyDhikr.png" aria-label="Hudā Widgets Collection">
+            <h3>Hudā Widgets Collection</h3>
+            <p>Keep daily adhkar on your home screen with a beautiful, glanceable widget.</p>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <section class="lockscreen-widgets container" id="lockscreen-widgets">
+      <div class="section-header">
+        <h2>Lock Screen Widgets</h2>
+        <p class="muted">Preview every Hudā widget for iOS Lock Screen—cards on the left, live preview on the right.</p>
+      </div>
+      <div class="lockscreen-layout">
+        <div class="lockscreen-cards">
+          <button class="lock-card active" data-group="0">
+            <h3>Daily Content (Quran/Hadith/Dua/Dhikr)</h3>
+            <p>Cycle through Arabic & English for Quran, hadith, dua, and dhikr.</p>
+          </button>
+          <button class="lock-card" data-group="1">
+            <h3>Ramadan Countdown</h3>
+            <p>Live countdown to Ramadan—stay ready for the blessed month.</p>
+          </button>
+          <button class="lock-card" data-group="2">
+            <h3>Next Prayer</h3>
+            <p>Next prayer name with countdown so you never miss the time.</p>
+          </button>
+          <button class="lock-card" data-group="3">
+            <h3>Prayer Times</h3>
+            <p>Compact row of today’s prayer times, always visible.</p>
+          </button>
+        </div>
+
+        <div class="lockscreen-visual">
+          <div class="lockscreen-phone">
+            <button class="lock-nav" type="button" id="lockscreen-prev" aria-label="Previous widget">◀</button>
+            <img id="lockscreen-preview-img" src="imagesv2/4.png" alt="Quran Verse (English) widget preview" loading="lazy" />
+            <button class="lock-nav" type="button" id="lockscreen-next" aria-label="Next widget">▶</button>
+            <div class="lockscreen-step" id="lockscreen-step">1 / 11</div>
+          </div>
+          <div class="lockscreen-dots" aria-hidden="true">
+            <span class="lock-dot active"></span>
+            <span class="lock-dot"></span>
+            <span class="lock-dot"></span>
+            <span class="lock-dot"></span>
+            <span class="lock-dot"></span>
+            <span class="lock-dot"></span>
+            <span class="lock-dot"></span>
+            <span class="lock-dot"></span>
+            <span class="lock-dot"></span>
+            <span class="lock-dot"></span>
+            <span class="lock-dot"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <section class="whats-new container" id="whats-new">
+      <div class="whats-new-panel">
+        <div class="whats-new-layout">
+          <div class="whats-new-visual">
+            <div class="whats-new-stack" id="wn-stack">
+              <button class="wn-nav prev" type="button" id="wn-prev" aria-label="Previous widget">•</button>
+              <div class="whats-new-cards" id="wn-cards">
+                <img class="wn-card active" data-idx="0" src="imagesv2/1.png" alt="Daily Hadith widget preview" loading="lazy" />
+                <img class="wn-card" data-idx="1" src="imagesv2/2.png" alt="Daily Quran Verse widget preview" loading="lazy" />
+                <img class="wn-card" data-idx="2" src="imagesv2/3.png" alt="Daily Dua widget preview" loading="lazy" />
+                <img class="wn-card" data-idx="3" src="Images/DailyDhikr.png" alt="Daily Dhikr widget preview" loading="lazy" />
+              </div>
+              <button class="wn-nav next" type="button" id="wn-next" aria-label="Next widget">•</button>
+            </div>
+            <div class="wn-dots" aria-hidden="true">
+              <span class="wn-dot active"></span>
+              <span class="wn-dot"></span>
+              <span class="wn-dot"></span>
+              <span class="wn-dot"></span>
+            </div>
+          </div>
+          <div class="whats-new-copy">
+            <p class="kicker">Introducing Daily Faith Widgets</p>
+            <h2>Small glances. Lasting impact.</h2>
+            <p class="muted">Prayer times, Qur’an, hadith, and dhikr now live on your Home and Lock Screen—so remembrance stays close even on busy days.</p>
+
+            <div class="whats-new-meta">
+              <span class="chip">Live on iOS</span>
+              <span class="chip secondary">Coming soon to Android</span>
+            </div>
+
+            <ul class="whats-new-list">
+              <li>Real-time prayer tracking with subtle reminders</li>
+              <li>Instant access to daily Qur’an, hadith, and dhikr</li>
+              <li>Built for quick glances—no taps required</li>
+            </ul>
+
+            <div class="whats-new-cta">
+              <div class="stat-card">
+                <div class="stat-label">iOS rating</div>
+                <div class="stat-value">5/5</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-label">Widgets pinned</div>
+                <div class="stat-value">+18k</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-label">Daily reminders</div>
+                <div class="stat-value">On</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <section class="about-section container" id="about">
+      <div class="about-panel">
+        <div class="about-meta">
+          <p class="kicker">About the Creator</p>
+          <h2>Meet the young developer behind Hudā</h2>
+          <div class="about-name">
+            <div>
+              <div class="about-title">Moustapha Gueye</div>
+              <div class="about-role">Founder &amp; Developer</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-body">
+          <p><strong>As-salāmu ʿalaykum wa raḥmatullāh,</strong></p>
+          <p>My name is Moustapha, and I am the creator of Hudā. I am 18 years old at the time of release, and I have been Muslim my entire life, alhamdulillāh. Although I was born into Islam, I understand that many people come to Islam later in life, and I have immense respect for those who find their way to the truth.</p>
+          <p>This app was developed entirely by me. Every part of it — the design, the code, the content — was created with care, intention, and the hope that it could make a difference in someone's life.</p>
+          <p>Hudā is not just an app; it's a project of the heart. It's my way of giving back and using the skills that Allah has blessed me with to benefit others, in shā' Allāh. I am still learning and growing, and I hope this app reflects that journey.</p>
+          <p><em>May Allah guide us all, increase us in knowledge, and make this effort a source of reward.</em></p>
+          <p>Thank you for being here. I truly wish you the best in your journey.</p>
+          <p class="about-signoff">Was-salāmu ʿalaykum wa raḥmatullāhi wa barakātuh.</p>
+          <p class="about-signoff about-signature">– Moustapha Gueye, Founder</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <section class="reviews-section container" id="reviews">
+      <div class="section-header">
+        <h2>Reviews from the Ummah</h2>
+        <p class="muted">First-hand notes from Muslims who keep Hudā close every day.</p>
+      </div>
+      <div class="reviews-grid">
+        <article class="review-card">
+          <div class="review-header">
+            <div class="reviewer">
+              <div>
+                <div class="reviewer-name">Aisha</div>
+                <div class="reviewer-meta">Stays on track for Fajr</div>
+              </div>
+            </div>
+            <div class="review-rating" aria-label="5 out of 5 stars">★★★★★</div>
+          </div>
+          <p class="review-text">Hudā nudges me gently before Fajr and the dhikr widget keeps my morning adhkar on my Home Screen. No more juggling timers.</p>
+          <div class="review-tags">
+            <span class="review-tag">Prayer times</span>
+            <span class="review-tag">Dhikr widget</span>
+          </div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-header">
+            <div class="reviewer">
+              <div>
+                <div class="reviewer-name">Omar</div>
+                <div class="reviewer-meta">Between meetings</div>
+              </div>
+            </div>
+            <div class="review-rating" aria-label="5 out of 5 stars">★★★★★</div>
+          </div>
+          <p class="review-text">The prayer countdown sits right on my lock screen. I glance, make wudu, and I’m on time even on busy office days.</p>
+          <div class="review-tags">
+            <span class="review-tag">Lock Screen</span>
+            <span class="review-tag">Reminders</span>
+          </div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-header">
+            <div class="reviewer">
+              <div>
+                <div class="reviewer-name">Fatimah</div>
+                <div class="reviewer-meta">Learning with my kids</div>
+              </div>
+            </div>
+            <div class="review-rating" aria-label="5 out of 5 stars">★★★★★</div>
+          </div>
+          <p class="review-text">We read one lesson together after Maghrib. The structured topics make it easy to teach and revisit Qur’an and seerah basics.</p>
+          <div class="review-tags">
+            <span class="review-tag">Lessons</span>
+            <span class="review-tag">Family friendly</span>
+          </div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-header">
+            <div class="reviewer">
+              <div>
+                <div class="reviewer-name">Yusuf</div>
+                <div class="reviewer-meta">Travel routine</div>
+              </div>
+            </div>
+            <div class="review-rating" aria-label="5 out of 5 stars">★★★★★</div>
+          </div>
+          <p class="review-text">Hudā handles time zones and madhhab settings quietly in the background. I land, open the app, and I’m aligned with local adhan times.</p>
+          <div class="review-tags">
+            <span class="review-tag">Travel</span>
+            <span class="review-tag">Prayer settings</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="section-divider" aria-hidden="true"></div>
+
+    <section class="ratings-section" id="ratings">
+      <div class="ratings-wrap container">
+        <div class="ratings-laurel left" aria-hidden="true"></div>
+        <div class="ratings-content">
+          <div class="ratings-stars" aria-hidden="true">
+            <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          </div>
+          <h2>5-star rated by our community</h2>
+          <div class="ratings-inline">
+            <div class="rating-pill inline">
+              <span class="rating-icon apple" aria-hidden="true"></span>
+              <span class="rating-score">5/5</span>
+            </div>
+            <span class="rating-separator">•</span>
+            <div class="rating-pill inline">
+              <span class="rating-icon play" aria-hidden="true"></span>
+              <span class="rating-score">Coming soon</span>
+            </div>
+          </div>
+          <div class="store-badges-row center">
+            <a class="store-badge" href="https://apps.apple.com/us/app/huda-the-app-for-muslims/id6748400060" aria-label="Download on the App Store">
+              <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+            </a>
+          </div>
+        </div>
+        <div class="ratings-laurel right" aria-hidden="true"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="footer-top container">
+      <div class="footer-brand">
+        <div class="brand">
+          <div class="brand-mark">
+            <img src="logo.png" alt="Huda logo" />
+          </div>
+          <span class="brand-name">Hudā</span>
+        </div>
+        <p class="footer-download">Download Huda</p>
+        <div class="store-badges-row">
+          <a class="store-badge" href="https://apps.apple.com/us/app/huda-the-app-for-muslims/id6748400060" aria-label="Download on the App Store">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <a href="https://www.mouslifejournal.com/privacy.html">Privacy Policy</a>
+        <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Terms of Use</a>
+      </div>
+      <div class="footer-col">
+        <h4>Social</h4>
+        <a href="https://www.instagram.com/thehuda.app/">Instagram</a>
+        <a href="https://www.tiktok.com/@thehuda.app">TikTok</a>
+      </div>
+    </div>
+    <div class="footer-ayah container">
+      <p class="ayah-arabic" lang="ar" dir="rtl">وَكَفَىٰ بِرَبِّكَ هَادِيٗا وَنَصِيرٗا</p>
+      <p class="ayah-translation">"And sufficient is your Lord as a Guide and a Helper."</p>
+    </div>
+    <div class="footer-bottom container">
+      <span class="copyright">© 2025 Huda. All rights reserved.</span>
+      <div class="footer-social-icons">
+        <a href="https://www.instagram.com/thehuda.app/" aria-label="Instagram" class="icon instagram"></a>
+        <a href="https://www.tiktok.com/@thehuda.app" aria-label="TikTok" class="icon tiktok"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    window.va = window.va || function () { (window.va.q = window.va.q || []).push(arguments); };
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
+
