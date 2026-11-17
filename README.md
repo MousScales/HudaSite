@@ -1,185 +1,201 @@
-# Hudā - Islamic App Website
+# Hudā — Islamic Companion App Website
 
-A simple, clean website for the Hudā Islamic app featuring prayer times, Quran reading, daily duas, and more.
+### Frontend Engineering | Responsive Design | Lightweight Web Development
 
-## Features
+**HTML5 · CSS3 · JavaScript · Responsive Web Design · DOM Manipulation**
 
-- **Simple & Clean Design**: Minimal, modern design focused on content
-- **Responsive**: Works perfectly on desktop, tablet, and mobile devices
-- **Fast Loading**: Optimized for performance with minimal assets
-- **No External Dependencies**: Uses only Google Fonts for typography
+Hudā is a responsive website designed to introduce and showcase the features of an Islamic companion application.
 
-## Sections
+Built using HTML, CSS, and vanilla JavaScript, the website provides a lightweight, dependency-minimal frontend experience with an emphasis on clean design, cross-device compatibility, and straightforward deployment.
 
-1. **Hero Section**: Main landing area with app description and call-to-action
-2. **Features**: Showcase of 6 key app features with emoji icons
-3. **About**: Brief description and user statistics
-4. **Contact**: Simple contact information
-5. **Footer**: Links and copyright information
+The project demonstrates foundational experience in **frontend development, browser-based programming, responsive layouts, and static website architecture**.
 
-## App Features Highlighted
+## Engineering Highlights
 
-- 🕌 Prayer Times with notifications
-- 📖 Quran Reader with translations
-- 🤲 Daily Duas and Dhikr
-- 🧭 Qibla Direction
-- 📚 Islamic Lessons
-- 📊 Progress Tracking
+### 1. Lightweight Frontend Architecture
+
+- Developed the website using native browser technologies without a JavaScript framework.
+- Separated page structure, styling, and client-side behavior into dedicated files.
+- Organized reusable page sections for straightforward maintenance.
+- Used a static website architecture that does not require a backend application server.
+
+**Relevant concepts:** HTML5, CSS3, Vanilla JavaScript, Separation of Concerns, Static Web Architecture
+
+### 2. Responsive Interface Development
+
+- Designed layouts for desktop, tablet, and mobile screens.
+- Organized content into reusable visual sections.
+- Incorporated typography, images, and application previews.
+- Developed a consistent visual identity across the website.
+
+**Relevant concepts:** Responsive Design, CSS Layouts, UI Engineering, Cross-Device Compatibility
+
+### 3. Client-Side Programming
+
+- Used JavaScript to support interactive website behavior.
+- Maintained a separate JavaScript file for client-side functionality.
+- Built on native browser capabilities without additional application frameworks.
+
+**Relevant concepts:** JavaScript, DOM Manipulation, Event-Driven Programming, Browser APIs
+
+### 4. Deployment & Maintainability
+
+- Structured the project for static hosting.
+- Avoided unnecessary runtime dependencies.
+- Organized assets and source files for straightforward deployment.
+- Supported deployment through services such as GitHub Pages, Vercel, or Netlify.
+
+**Relevant concepts:** Static Hosting, Deployment, Maintainability, Dependency Management
+
+## Website Features
+
+The website introduces the following Hudā application features:
+
+| Feature | Description |
+|---|---|
+| Prayer Times | Prayer scheduling and notification information |
+| Qur'an Reader | Qur'an reading and translation features |
+| Daily Duas & Dhikr | Daily remembrance and supplications |
+| Qibla Direction | Prayer direction functionality |
+| Islamic Lessons | Educational content |
+| Progress Tracking | Personal religious progress monitoring |
+
+These are features presented by the website, not necessarily implemented within this repository.
+
+## Technology Stack
+
+| Category | Technology |
+|---|---|
+| Structure | HTML5 |
+| Styling | CSS3 |
+| Programming | JavaScript |
+| Typography | Google Fonts |
+| Architecture | Static Website |
+| Hosting Options | GitHub Pages, Netlify, Vercel |
+| Version Control | Git, GitHub |
+
+## Repository Structure
+
+```text id="0vxh7k"
+huda-site/
+├── index.html          # Main landing page
+├── about.html          # About page
+├── styles.css          # Website styling
+├── script.js           # Client-side JavaScript
+├── logo.png            # Application logo
+├── kaaba.png           # Visual asset
+├── phoner.png          # Application preview
+├── phoner2.png         # Application preview
+├── README.md           # Project documentation
+└── ...                 # Additional images and media
+```
+
+The repository uses a straightforward structure to separate page content, styling, application behavior, and static assets.
 
 ## Getting Started
 
 ### Prerequisites
 
 - A modern web browser
-- No additional setup required
+- Git (optional)
+
+No Node.js installation or package manager is required.
 
 ### Installation
 
-1. Download or clone the project files
-2. Open `index.html` in your web browser
-3. That's it! The site is ready to use
+Clone the repository:
 
-### File Structure
+```bash id="9oh1ma"
+git clone https://github.com/MousScales/huda-site.git
+cd huda-site
+```
 
+Open `index.html` in your preferred browser.
+
+Alternatively, use a local static server:
+
+```bash id="3r99tw"
+python -m http.server 8000
 ```
-hudasite/
-├── index.html          # Main HTML file
-├── styles.css          # CSS styles
-├── script.js           # JavaScript functionality
-├── logo.png            # App logo
-└── README.md           # This file
-```
+
+Then visit:
+
+`http://localhost:8000`
 
 ## Customization
 
-### Colors
-The website uses a clean, minimal color scheme:
-- Primary: `#333` (Dark Gray)
-- Background: `#ffffff` (White)
-- Light Background: `#f8f9fa` (Light Gray)
-- Text: `#333` (Dark Gray)
-- Secondary Text: `#666` (Medium Gray)
+### Website Content
 
-### Content Updates
+Edit `index.html` to update the landing page, feature descriptions, and navigation.
 
-#### Update App Features
-Edit the features section in `index.html` to modify:
-- Feature descriptions
-- Emoji icons
-- Feature order
+Edit `about.html` to modify the application's background and informational content.
 
-#### Update Contact Information
-Edit the contact section in `index.html` to change:
-- Email address
-- Contact details
+### Styling
 
-#### Update Statistics
-Edit the about section in `index.html` to modify:
-- User count
-- Prayer tracking numbers
-- App store rating
+Modify `styles.css` to adjust:
 
-### Styling Changes
+- Typography
+- Colors
+- Layout spacing
+- Responsive behavior
+- Visual components
 
-#### Modify Colors
-Edit the CSS variables in `styles.css`:
-```css
-/* Main color scheme */
---primary-color: #333;
---background-color: #ffffff;
---light-background: #f8f9fa;
-```
+### JavaScript
 
-#### Change Fonts
-Update the Google Fonts link in `index.html`:
-```html
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-```
-
-## Browser Support
-
-- Chrome (recommended)
-- Firefox
-- Safari
-- Edge
+Modify `script.js` to update client-side interactions and browser behavior.
 
 ## Deployment
 
+As a static website, Hudā can be deployed without a dedicated backend server.
+
 ### GitHub Pages
-1. Push your code to a GitHub repository
-2. Go to Settings > Pages
-3. Select source branch (usually `main`)
-4. Your site will be available at `https://username.github.io/repository-name`
 
-### Netlify
-1. Drag and drop the project folder to Netlify
-2. Your site will be deployed automatically
+1. Open the repository settings.
+2. Navigate to **Pages**.
+3. Select the desired deployment branch.
+4. Save the configuration.
 
-### Vercel
-1. Connect your GitHub repository to Vercel
-2. Deploy automatically on every push
+### Vercel or Netlify
 
-## Performance
+Connect the GitHub repository to the hosting provider and configure it as a static site.
 
-This simplified version is optimized for:
-- Fast loading times
-- Minimal bandwidth usage
-- Clean, accessible design
-- Mobile-first responsive design
+## Engineering Focus
 
-## License
+This project demonstrates foundational software engineering practices.
 
-This project is open source and available under the [MIT License](LICENSE).
+**Dependency Management**
 
-## Support
+Building a website using native browser capabilities rather than introducing unnecessary external libraries.
 
-For questions or support:
-- Email: support@huda.app
-- Create an issue in the repository
+**Separation of Concerns**
 
----
+Maintaining distinct files for structure, presentation, and behavior.
 
-**Hudā** - Your Complete Islamic Companion
-To add Google Analytics:
-1. Get your tracking ID from Google Analytics
-2. Add this code before the closing `</head>` tag in `index.html`:
+**Responsive Design**
 
-```html
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'GA_TRACKING_ID');
-</script>
-```
+Creating layouts that adapt to different screen sizes and device types.
 
-## Contact Form Integration
+**Maintainability**
 
-To add a working contact form:
-1. Use services like Formspree, Netlify Forms, or your own backend
-2. Update the form action in the HTML
-3. Test the form submission
+Organizing source code and assets so that individual sections can be updated independently.
 
-## License
+**Deployment Simplicity**
 
-This project is open source and available under the [MIT License](LICENSE).
+Using static hosting to reduce application infrastructure requirements.
 
-## Support
+These fundamentals complement more advanced projects involving backend systems, data processing, and application architecture.
 
-For questions or support:
-- Email: support@huda.app
-- Create an issue in the repository
-- Check the documentation
+## About the Developer
 
-## Contributing
+**Moustapha Gueye**
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+Computer & Data Science Student at New York University | Aspiring Quantitative Developer
+
+Interested in C++, Python, algorithms, systems programming, and financial technology.
+
+- **GitHub:** [@MousScales](https://github.com/MousScales)
+- **Portfolio:** [mousholdings.com](https://mousholdings.com)
 
 ---
 
-**Hudā** - Your Complete Islamic Companion 
+© 2026 Moustapha Gueye. All rights reserved.
